@@ -14,6 +14,12 @@
 		E1C750D520D97A210013CFE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C750D320D97A210013CFE5 /* LaunchScreen.storyboard */; };
 		E1C750E020D97A210013CFE5 /* MonopolyDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C750DF20D97A210013CFE5 /* MonopolyDiceTests.swift */; };
 		E1C750EB20D97A210013CFE5 /* MonopolyDiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C750EA20D97A210013CFE5 /* MonopolyDiceUITests.swift */; };
+		E1C750FE20D97DC30013CFE5 /* dice5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1C750F820D97DC30013CFE5 /* dice5.jpg */; };
+		E1C750FF20D97DC30013CFE5 /* dice2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1C750F920D97DC30013CFE5 /* dice2.jpg */; };
+		E1C7510020D97DC30013CFE5 /* dice4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1C750FA20D97DC30013CFE5 /* dice4.jpg */; };
+		E1C7510120D97DC30013CFE5 /* dice3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1C750FB20D97DC30013CFE5 /* dice3.jpg */; };
+		E1C7510220D97DC30013CFE5 /* dice6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1C750FC20D97DC30013CFE5 /* dice6.jpg */; };
+		E1C7510320D97DC30013CFE5 /* dice1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1C750FD20D97DC30013CFE5 /* dice1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		E1C750E620D97A210013CFE5 /* MonopolyDiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonopolyDiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C750EA20D97A210013CFE5 /* MonopolyDiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonopolyDiceUITests.swift; sourceTree = "<group>"; };
 		E1C750EC20D97A210013CFE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C750F820D97DC30013CFE5 /* dice5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dice5.jpg; sourceTree = "<group>"; };
+		E1C750F920D97DC30013CFE5 /* dice2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dice2.jpg; sourceTree = "<group>"; };
+		E1C750FA20D97DC30013CFE5 /* dice4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dice4.jpg; sourceTree = "<group>"; };
+		E1C750FB20D97DC30013CFE5 /* dice3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dice3.jpg; sourceTree = "<group>"; };
+		E1C750FC20D97DC30013CFE5 /* dice6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dice6.jpg; sourceTree = "<group>"; };
+		E1C750FD20D97DC30013CFE5 /* dice1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dice1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,12 @@
 		E1C750C920D97A200013CFE5 /* MonopolyDice */ = {
 			isa = PBXGroup;
 			children = (
+				E1C750FD20D97DC30013CFE5 /* dice1.jpg */,
+				E1C750F920D97DC30013CFE5 /* dice2.jpg */,
+				E1C750FB20D97DC30013CFE5 /* dice3.jpg */,
+				E1C750FA20D97DC30013CFE5 /* dice4.jpg */,
+				E1C750F820D97DC30013CFE5 /* dice5.jpg */,
+				E1C750FC20D97DC30013CFE5 /* dice6.jpg */,
 				E1C750CA20D97A200013CFE5 /* AppDelegate.swift */,
 				E1C750CC20D97A200013CFE5 /* ViewController.swift */,
 				E1C750CE20D97A200013CFE5 /* Main.storyboard */,
@@ -230,7 +248,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1C750D520D97A210013CFE5 /* LaunchScreen.storyboard in Resources */,
+				E1C7510020D97DC30013CFE5 /* dice4.jpg in Resources */,
+				E1C7510120D97DC30013CFE5 /* dice3.jpg in Resources */,
+				E1C7510220D97DC30013CFE5 /* dice6.jpg in Resources */,
 				E1C750D220D97A210013CFE5 /* Assets.xcassets in Resources */,
+				E1C750FF20D97DC30013CFE5 /* dice2.jpg in Resources */,
+				E1C750FE20D97DC30013CFE5 /* dice5.jpg in Resources */,
+				E1C7510320D97DC30013CFE5 /* dice1.jpg in Resources */,
 				E1C750D020D97A200013CFE5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +456,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MonopolyDice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,6 +474,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MonopolyDice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
